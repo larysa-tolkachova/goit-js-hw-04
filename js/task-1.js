@@ -1,13 +1,3 @@
-// function isEnoughCapacity(products, containerSize) {
-
-//     const quantity = Object.values(products);
-//     let sum = 0;
-//     for (const member of quantity) {
-//         sum += member;
-//     }
-//             return sum <= containerSize;
-// }
-
 function isEnoughCapacity(products, containerSize) {
     let sum = 0;
     for (const member in products) {
